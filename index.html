@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enigma dos Pinóquios Mentirosos</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>O Enigma dos Pinóquios Mentirosos</h1>
+      <p class="description">Descubra o menor número de mentirosos entre os Pinóquios baseado em suas afirmações.</p>
+
+      <div class="input-group">
+        <label for="claims">Afirmações (separadas por vírgula):</label>
+        <input type="text" id="claims" placeholder="Exemplo: 2, 3, 1, 1" />
+      </div>
+
+      <div class="button-group">
+        <button id="calculate" style="--clr: #d0d015"><span>REVELAR</span><i></i></button>
+        <button id="back" style="--clr: #d0d015"><span>VOLTAR</span><i></i></button>
+      </div>
+
+      <div class="result-container">
+        <h2>Resultado</h2>
+        <div id="result" class="result-content"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
